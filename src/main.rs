@@ -1,5 +1,6 @@
 fn main() {
     println!("Hello, world!");
+    println!("{} is {} number", 5, even_or_odd(5));
 }
 
 fn even_or_odd(number: i32) -> String {
